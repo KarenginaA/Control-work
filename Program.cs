@@ -71,3 +71,38 @@ void PrintArray(string[] arr)
         if (i != arr.Length - 1) Write(", ");
     }
 }
+
+
+// Дополнительный вариант решения задачи
+// string[] ChangeArray(string[] array)
+// {
+    //создаем экземпляр класса List<string>
+    // List<string> list = new List<string>();
+    // проходимся по list   
+    // foreach (string s in array)
+    // {
+        // if (s.Length<=3)
+        // {
+            //добвляем в list s
+            // list.Add(s);
+        // }
+    // }
+    //возвращем string[] из list
+    // return list.ToArray();
+// }
+
+
+// void ShowArray(string[] array)
+// {
+    // foreach (string a in array)
+    // {
+        // Console.Write($"\"{a}\" ");
+    // }
+// }
+
+
+// string[] people = new string[] { "Hello", "2", "world", ":-)" };
+
+// string[] aasd = ChangeArray(people);
+
+// ShowArray(aasd);
